@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+}
+
+.app-filter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.app-pokemon{
+  margin: 50px;
+  border: 1px solid lightgray;
+  /* color: var(--light-text); */
+  background-color: var(--bg-color);
+}
+
+.table th{
+  height: 40px;
+  background-color: var(--bg-color-head);
+  color: var(--dark-text)
+}
+
+.table td{
+  color: var(--text-color);
+}
+
+.card{
+  background: linear-gradient(to bottom right, #024, #402);
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  border: 4px solid #ffdd56;
+  color: white;
+}
+
+.card-image {
+
+}
+
+.card-data{
+  text-align: left;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.card-data label{
+  /* background-color: #ffdd57; */
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  color:#024
+}
+
+.type{
+  background-color: #ffdd57;
+}
+
+.weakness{
+  background-color: turquoise;
+}
+
+.height{
+  background-color: coral;
+}
+.weight{
+  background-color: violet;
+}
+p{
+  margin-bottom: 20px;
+}
+
+hr{
+  margin-top: 15px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 7px;
+  background: linear-gradient(to right, #a86e3c, #f5ae67);
+  border: none;
+  border-radius: 20px;
+}
+
+
+.prevnext{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.prev{
+  margin-right: 50px;
+}
+
+.next{
+  margin-left: 50px;
+}
+
+.prev label{
+  background-color: orangered;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  color:#024
+}
+
+.next label{
+  background-color: greenyellow;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  color:#024
+}
